@@ -1,0 +1,31 @@
+
+
+.filter-blur{
+}
+.filter-contrast{
+}
+.filter-hue-rotate{
+}
+.filter-invert{
+}
+.filter-blur:hover{
+	filter: blur(3px);
+}
+.filter-contrast:hover{
+	filter: contrast(.2);
+}
+.filter-hue-rotate:hover{
+	filter: hue-rotate(180deg);
+}
+.filter-invert:hover{
+	filter: invert(100%);
+}
+.filter-blur, .filter-contrast, .filter-hue-rotate, .filter-invert{
+	transition-duration: .2s;
+	transition-timing-function: linear;
+	transition-property: filter;
+}
+img{
+	width: 250px;
+	height: 200px;
+}

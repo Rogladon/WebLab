@@ -1,0 +1,9 @@
+p{
+	text-indent: 30px;
+	color: #130a5c;
+}
+p:first-letter{
+	font-size: 300%;
+	color: #e52325;
+}
+
